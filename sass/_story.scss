@@ -1,0 +1,13 @@
+.story {
+  &__pictures {
+    background-color: orange;
+    grid-column: full-start / col-end 4;
+    grid-row: 3 / 4;
+  }
+
+  &__content {
+    background-color: rgb(0, 255, 76);
+    grid-column: col-start 5 / full-end;
+    grid-row: 3 / 4;
+  }
+}
